@@ -46,7 +46,7 @@ class _MagicBallState extends State<MagicBall> {
               onPressed: () {
                 changeBall();
               },
-              child: Image.asset('images/ON_button1.png'),
+              child: Image.asset('images/ON_button1.png', width: 15,),
             ),
           ),
         ],
